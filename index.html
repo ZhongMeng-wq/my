@@ -1,39 +1,102 @@
-
+<!--
+READMI.md
+这是一个友链模块的静态模板
+为初始版本
+电脑和移动端自适应
+写的不好请见谅
+github:https://github.com/ZhongMeng-wq/my
+-->
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="UTF-8">
+		<meta charset="utf-8" />
 		<meta http-equiv="Cache-Control" content="no-transform">
 		<meta http-equiv="Cache-Control" content="no-siteapp">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
-		<meta name="baidu-site-verification" content="code-v8r41F3AU5" />
 		<meta name="format-detection" content="telphone=no,email=no">
 		<meta name="keywords" content="友链展示loline">
 		<meta name="description" itemprop="description" content="">
-		<link rel="icon" type="image/x-icon" href="https://blog.loline.top/wp-content/uploads/2022/02/head.jpg">
-		<style type="text/css">
-			body,div,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
-			body{-webkit-text-size-adjust:100%;}
-			a{color:#2d374b;text-decoration:none}
-			a:hover{color:#cd0200;text-decoration:underline}
-			em{font-style:normal}
-			li{list-style:none}
-			img{border:0;vertical-align:middle}
-			table{border-collapse:collapse;border-spacing:0}
-			p{word-wrap:break-word}
-			body,html{width: 100%;height: 100%;position: relative;}
-			
-			iframe{
-				border: 0;
-			}
-		</style>
+		<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+		<title></title>
+		<link rel="stylesheet" href="https://zhongmeng-wq.github.io/my/style.css" />
+		<script src="https://zhongmeng-wq.github.io/my/javascript.js"></script>
 		<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
-		<title>loline首页</title>
-		<meta name='robots' content='max-image-preview:large' />
-		<script src="https://blog.loline.top/cdn/ua.js" type="text/javascript"></script>
 	</head>
-	<body class="custom-background" style="background-image: url(https://www.yingciyuan.cn/pc.php);background-size: cover;background-attachment: fixed;">
-		<iframe src="https://blog.loline.top/%E9%A6%96%E9%A1%B5.html" width="100%" height="100%"></iframe>
+	<body>
+		<div id="dhl">
+			<button class="dhl_button"><i class="fa fa-bars" style="font-size: 20px;"></i></button>
+		</div>
+		<div id="left">
+			<div class="head_div">
+			</div>
+			<div class="head_title">
+				<img id="img_head" src="https://blog.loline.top/wp-content/uploads/2022/02/head.jpg" />
+				<h1>loline首页</h1>
+				<span><i>这是一个项目的首页</i></span>
+				<hr class="hr"/>
+				<p>此页面为loline已经收录的页面<br />你也可以把你的网页添加进来<br />点击按钮添加友链</p>
+				<a href="https://blog.loline.top/%e6%b7%bb%e5%8a%a0%e5%8f%8b%e9%93%be.html" target="_blank"><button class="button1">添加友链</button></a>
+				<!-- 个人网站信息和互换友链方法F:\platform-tools -->
+			</div>
+			<div id="yl">
+				<ul class="yl_ul">
+					<li class="yl_li qq">
+						<a class="qq" href="tencent://message/?uin=3157152301&amp" target="_blank">
+							<button class="button ico yl_button">
+								<i class="fa fa-qq" aria-hidden="true"></i> 联系QQ
+							</button>
+						</a>
+					</li>
+					<li class="yl_li mqq">
+						<a class="mqq" href="mqqwpa://im/chat?chat_type=wpa&uin=3157152301&version=1&src_type=web">
+							<button class="button ico yl_button">
+								<i class="fa fa-qq" aria-hidden="true"></i> 3157152301
+							</button>
+						</a>
+					</li>
+
+					<li class="yl_li">
+						<a href="https://qm.qq.com/cgi-bin/qm/qr?k=KKoXGxnmJp7ZnUsEgv8Y9gW2O2uq3uuX&jump_from=webapi"
+							target="_blank">
+							<button class="button ico yl_button">
+								<i class="fa fa-qq" aria-hidden="true"></i> QQ交流群
+							</button>
+						</a>
+					</li>
+					<li class="yl_li">
+						<a href="https://blog.loline.top/img/wechat.jpg" target="_blank">
+							<button class="button ico yl_button">
+								<i class="fa fa-weixin" aria-hidden="true"></i> Wechat
+							</button>
+						</a>
+					</li>
+					<!-- 联系方式 -->
+				</ul>
+			</div>
+		</div>
+		<div id="right">
+			<ul class="xm_ul">
+				<li class="xm_li">
+					<a href="#" target="_blank">
+						<button class="xm_button">
+							<div class="xm_l">
+								<img class="xm_img" src="https://blog.loline.top/wp-content/uploads/2022/02/head.jpg" />
+								<!-- 图像位置 -->
+							</div>
+							<div class="xm_r">
+								<h2 class="nr_font xm_h2" style="">loline</h2><!-- 标题 -->
+								<h6 class="nr_font xm_h6" style=""><i>loline</i></h6><!-- 描述 -->
+							</div>
+						</button>
+					</a>
+				</li>
+				<!-- 友链展示 -->
+			</ul>
+		</div>
+		<div class="foot">
+			<button class="foot_button">© 2021 <a style="color: blue;" href="https://www.loline.top">loline </a>| 版权所有</button><!-- 版权标注 -->
+		</div>
 	</body>
 </html>
+<!-- gtihub:https://github.com/ZhongMeng-wq/my -->
