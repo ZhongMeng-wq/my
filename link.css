@@ -1,0 +1,185 @@
+  body,ol,ul,h1,h2,h3,h4,h5,h6,p,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0} 
+body,html{width: 100%;height: 100%;}
+body{background:#fff;-webkit-text-size-adjust:100%;} 
+a{text-decoration:none} 
+em{font-style:normal} 
+li{list-style:none} 
+img{border:0;vertical-align:middle} 
+p{word-wrap:break-word} 
+body {
+    background-image:url(https://www.yingciyuan.cn/pc.php); 
+    /* background-color: rgba(100,200,200,0.7); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+button{
+    border: 0;
+    background-color: unset;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+}
+.link{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background-color: rgba(250,250,250,0.7);
+    backdrop-filter: blur(3px);
+    border-radius: 20px;
+    box-shadow: inset 30px 0px 100px 50px rgba(250,250,250,0.0);
+}
+.link-add{
+    position: fixed;
+    background-color: rgba(255,255,255,0.9);
+    width: 60%;
+    min-height: 60%;
+    top: 20%;
+    /* bottom: 20%; */
+    left: 20%;
+    right: 20%;
+    z-index: 9999;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 10px;
+    display: none;
+}
+.h2{
+    width: 100%;
+    height: 10%;
+    color: black;
+    display: block;
+    font-weight: 600;
+}
+.nav{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+}
+.nav_a{
+    text-align: center;
+    width: 30%;
+    margin: 0 10%;
+    height: 100%;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.nav_button{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.nav_a:hover{
+    background-color: rgba(150, 230, 255, 0.7);
+    transition: 0.5s;
+}
+.link-ul{
+    width: 100%;
+    height: 80%;
+    display: block;
+    overflow: auto;
+    /* background-color: red; */
+}
+.link-li{
+    width: 25%;
+    height: 80px;
+    padding: 5px;
+    overflow: auto;
+    border-radius: 10px;
+    /* background-color: aqua; */
+    float: left;
+}
+.link-li:hover{
+    transition: 0.5s;
+    background-color: rgba(200, 230, 255, 0.7);
+}
+.link-li-l{
+    display: flex;
+    width: 30%;
+    height: 70px;
+    float: left;
+    border-radius: 100px;
+}
+.link-li-l>a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.link-li-l>img{
+    border-radius: 100px;
+    margin: 0 auto;
+}
+.link-li-r{
+    width: 70%;
+    height: 70px;
+    float:right;
+}
+.link-title{
+    color: #000;
+}
+.link-infos{
+    color: #000;
+    font-size: 14px;
+}
+.exit{
+    display: block;
+    width: 100px;
+    height: 100%;
+    float:right;
+    background-color: rgba(250,150,150,0.7);
+    border-radius: 20px;
+}
+.exit:hover{
+    transition: 0.3s;
+    background-color: rgba(250,10,10,0.7);
+}
+.link-form{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+}
+.form-input{
+    margin: 10px 0;
+    border-radius: 20px;
+    border: 0;
+    background-color: rgb(176, 176, 176);
+}
+.button-style{
+    border-radius: 20px;
+}
+@media screen and (max-width:1000px) {
+    .main{
+        height: auto;
+        overflow: auto;
+    }
+    .nav_a{
+        width: 40%;
+        margin: 0 5%;
+        height: 100%;
+        border-radius: 20px;
+        font-size: 20px;
+    }
+    .link-li{
+        width: 100%;
+    }
+    .link-add{
+        width: 90%;
+        /* bottom: 20%; */
+        left: 5%;
+        right: 5%;
+        /* display: none; */
+    }
+    .link-form {
+        width: 90%;
+        height: auto;
+        margin: auto;
+        padding: 10px;
+    }
+}
